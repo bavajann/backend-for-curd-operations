@@ -18,21 +18,3 @@ const connect = async () => {
 };
 
 module.exports = connect;
-/*const { MongoClient } = require('mongodb');
-const uri = "mongodb+srv://Bavajann9:Bavajann9@cluster0.i7ngzk4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
-const client = new MongoClient(uri);
-
-const connect = async () => {
-    try {
-        await client.connect();
-        console.log('Connected to MongoDB');
-        return client.db('your-database-name');  // Replace with your database name
-    } catch (err) {
-        console.error('Error connecting to MongoDB:', err);
-        throw err;
-    }
-};
-
-module.exports = connect;
-*/
