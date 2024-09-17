@@ -7,7 +7,7 @@ const port = 3005;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: 'https://fullstack-crud-operations.vercel.app'  // Replace with the actual frontend URL
+    origin: 'http://localhost:3000'  // Replace with the actual frontend URL
 }));
 
 // Import routes
