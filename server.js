@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to the Notes API');
 });
 
-// Error handling middleware (Place this before app.listen)
+// Error handling middleware 
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Something went wrong!');
